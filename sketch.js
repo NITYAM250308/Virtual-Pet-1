@@ -7,8 +7,8 @@ var foodRemaining=20;
 function preload()
 {
 	//load images here
-  dogImg=loadImage("images/dogImg1.png");
-  happyDog=loadImage("images/dogImg.png")
+  dogImg=loadImage("dogImg1.png");
+  happyDog=loadImage("dogImg.png")
 }
 
 function setup() {
