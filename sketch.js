@@ -34,10 +34,15 @@ background(46, 139, 87)
 
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS);
-    foodRemaining=foodRemaining-1
+    if(foodRemaining <=0){
+      foodRemaining=0
+    }else{
+      foodRemaining=foodRemaining-1
+    }
     dog.addImage(happyDog)
     dog.scale=0.5
   }
+
 
   drawSprites();
   //add styles here
